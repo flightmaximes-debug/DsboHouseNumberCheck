@@ -1,9 +1,9 @@
 {
   "name": "DsboHouseNumberCheck",
   "namespace": "DsboHouseNumberCheck",
-  "description": "Prüft die Felder der Lieferadresse und setzt Aufträge mit fehlerhaften Angaben auf Status 5.1.",
+  "description": "Prüft die Lieferadresse, setzt fehlerhafte Aufträge auf Status 5.1 und speichert die Gründe in einer internen Auftragsnotiz.",
   "author": "DSBO",
   "type": "general",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "serviceProvider": "DsboHouseNumberCheck\\Providers\\HouseNumberCheckServiceProvider"
 }

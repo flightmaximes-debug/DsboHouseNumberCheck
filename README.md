@@ -1,6 +1,10 @@
 # Lieferadresse bei Auftragserstellung prüfen
 
-Die Plugin-Aktion prüft die Lieferadresse neuer Standardaufträge aller Herkünfte. Bei einer fehlerhaften Adresse setzt sie den Auftragsstatus auf **5.1**. Die Adresse bleibt zur manuellen Korrektur gespeichert.
+Die Plugin-Aktion prüft die Lieferadresse neuer Standardaufträge aller Herkünfte. Bei einer fehlerhaften Adresse setzt sie den Auftragsstatus auf **5.1** und ergänzt eine interne Auftragsnotiz mit den Fehlergründen. Mehrere Fehler erscheinen gemeinsam in einer Notiz.
+
+> Automatische Lieferadressprüfung
+> - Die Hausnummer fehlt im Feld Adresse 2.
+> - Address Name 1 (Firma) ist zu lang. Das Feld darf höchstens 40 Zeichen enthalten.
 
 | Feld | Prüfung |
 | --- | --- |
