@@ -1,0 +1,9 @@
+{
+  "name": "DsboHouseNumberCheck",
+  "namespace": "DsboHouseNumberCheck",
+  "description": "Prüft die Hausnummer der Lieferadresse und setzt betroffene Aufträge auf Status 5.1.",
+  "author": "DSBO",
+  "type": "general",
+  "version": "1.0.0",
+  "serviceProvider": "DsboHouseNumberCheck\\Providers\\HouseNumberCheckServiceProvider"
+}
